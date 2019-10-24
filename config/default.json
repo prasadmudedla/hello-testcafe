@@ -1,0 +1,6 @@
+{
+    "test": {
+        "baseUrl": "https://www.google.com/",
+        "searchKey": "test"
+    }
+}

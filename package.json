@@ -1,15 +1,21 @@
 {
-  "name": "hello-testcafe",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Prasad Mudedla",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-plugin-testcafe": "^0.2.1"
-  }
+    "name": "hello-testcafe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "testcafe chrome tests/*.js --env=test"
+    },
+    "author": "Prasad Mudedla",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "config": "^3.2.3",
+        "eslint": "^6.5.1",
+        "eslint-plugin-testcafe": "^0.2.1",
+        "minimist": "^1.2.0"
+    },
+    "dependencies": {
+        "testcafe": "^1.6.0"
+    }
 }
