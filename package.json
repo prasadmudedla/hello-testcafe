@@ -4,18 +4,18 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "testcafe chrome tests/*.js --env=test"
+        "test": "testcafe chrome tests/*.js --env=test --skip-js-errors=true"
     },
     "author": "Prasad Mudedla",
     "license": "ISC",
     "devDependencies": {
+        "@testing-library/testcafe": "^4.2.3",
         "babel-eslint": "^10.0.3",
         "config": "^3.2.3",
         "eslint": "^6.5.1",
         "eslint-plugin-testcafe": "^0.2.1",
-        "minimist": "^1.2.0"
+        "minimist": "^1.2.5",
+        "testcafe": "^1.9.3"
     },
-    "dependencies": {
-        "testcafe": "^1.6.0"
-    }
+    "dependencies": {}
 }
