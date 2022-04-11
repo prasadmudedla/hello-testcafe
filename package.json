@@ -14,7 +14,7 @@
         "config": "^3.2.3",
         "eslint": "^6.5.1",
         "eslint-plugin-testcafe": "^0.2.1",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.6",
         "testcafe": "^1.9.3"
     },
     "dependencies": {}
